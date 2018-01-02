@@ -1,0 +1,17 @@
+{
+  "name": "gpii-survey-server",
+  "description": "A nodejs WebSocket server that holds all of Survey Server functionality",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license" : "SEE LICENSE IN LICENSE.txt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danailbd/gpii-survey-server"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "ws": "3.3.3"
+  }
+}
