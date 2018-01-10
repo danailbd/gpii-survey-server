@@ -1,7 +1,7 @@
 "use strict";
 var WebSocket = require("ws");
 
-var wss = new WebSocket.Server({ port: 3334 });
+var wss = new WebSocket.Server({ port: 33334 });
 console.log("Survey server started");
 
 wss.on("connection", function connection(ws) {
